@@ -49,4 +49,4 @@ def get_krishna_response(question: str):
         'question': question
     })
 
-    return response
+    return response 
