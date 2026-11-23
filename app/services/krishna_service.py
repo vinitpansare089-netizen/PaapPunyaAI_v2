@@ -41,3 +41,12 @@ def get_krishna_response(question: str):
         temperature = 0,
         max_tokens = 700
     )
+
+    chain = prompt | llm | StrOutputParser()
+
+    result = chain.invoke({
+        'context' : context,
+        'question': question
+    })
+
+    return result 
