@@ -15,7 +15,7 @@ def create_krishna_vector_store():
     documents = load_krishna_documents()
 
     ### splits documents into chunks
-    chunks = split_documents()
+    chunks = split_documents(documents)
 
     ### getting the embedding model
     embeddings = get_embedding_model()
