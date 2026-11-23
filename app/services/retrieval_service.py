@@ -33,3 +33,26 @@ def create_krishna_vector_store():
     vector_store.save_local(str(save_path))
 
     return vector_store
+
+
+def retrieve_krishna_knowledge(question: str, k: int = 2):
+
+    # Load the existing vector store
+    embedding_model = get_embedding_model()
+
+    project_root = Path(__file__).resolve().parents[2]
+    save_path = project_root / "vector_store" / "krishna_faiss"
+
+    vector_store = FAISS.load_local(
+        str(save_path),
+        embedding_model,
+        allow_dangerous_deserialization=True
+    )
+
+    # Retrieve the most relevant chunks
+    results = vector_store.similarity_search(
+        question,
+        k=k
+    )
+
+    return results
