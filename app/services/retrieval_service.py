@@ -29,3 +29,7 @@ def create_krishna_vector_store():
 
     project_root = Path(__file__).resolve().parents[2]
     save_path = project_root / "vector_store" / "krishna_faiss"
+
+    vector_store.save_local(str(save_path))
+
+    return vector_store
