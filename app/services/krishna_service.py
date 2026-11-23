@@ -39,7 +39,7 @@ def get_krishna_response(question: str):
     llm = ChatGroq(
         model_name = 'openai/gpt-oss-20b',
         temperature = 0,
-        max_tokens = 700
+        max_tokens = 1500
     )
 
     chain = prompt | llm | StrOutputParser()
