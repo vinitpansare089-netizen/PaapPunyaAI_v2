@@ -44,9 +44,9 @@ def get_krishna_response(question: str):
 
     chain = prompt | llm | StrOutputParser()
 
-    result = chain.invoke({
+    response = chain.invoke({
         'context' : context,
         'question': question
     })
 
-    return result 
+    return response
