@@ -30,8 +30,12 @@ def load_krishna_documents():
 
 def split_documents(documents):
 
-    splitter = RecursiveCharacterTextSplitter(
+    text_splitter = RecursiveCharacterTextSplitter(
         chunk_size = 300,
         chunk_verlap = 50,
         separators=["\n\n", "\n", " ", ""]
     )
+
+    chunks = text_splitter.split_documents(documents)
+
+    return chunks
