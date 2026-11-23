@@ -8,4 +8,6 @@ from app.services.retrieval_service import retrieve_krishna_knowledge
 load_dotenv()
 
 def get_krishna_response(question: str):
-    
+
+    ###Retrieve relevant knowledge
+    documents = retrieve_krishna_knowledge(question)
