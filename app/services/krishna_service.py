@@ -36,3 +36,8 @@ def get_krishna_response(question: str):
     ])
 
     ###Initialize the LLM
+    llm = ChatGroq(
+        model_name = 'openai/gpt-oss-20b',
+        temperature = 0,
+        max_tokens = 700
+    )
