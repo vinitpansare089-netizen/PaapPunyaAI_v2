@@ -11,3 +11,9 @@ def get_krishna_response(question: str):
 
     ###Retrieve relevant knowledge
     documents = retrieve_krishna_knowledge(question)
+
+    context = "\n\n".join(
+        doc.page_content for doc in documents
+    )
+
+    ###Creating the Prompt 
