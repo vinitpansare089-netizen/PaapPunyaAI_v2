@@ -94,7 +94,6 @@ if __name__ == "__main__":
     )
 
     print("\nKrishna's Response:\n")
-
     print(result["answer"])
 
     print("\nSources:\n")
