@@ -1,0 +1,22 @@
+DOCUMENT_ID: KRISHNA_004
+DEITY: Krishna
+TEXT: Bhagavad Gita
+CHAPTER: 6
+VERSE: 5
+TOPICS: self-discipline, self-guidance, mind, personal responsibility
+CONTENT_TYPE: verse_based_paraphrase
+LANGUAGE: English
+SOURCE: Heritage IIT Kanpur, Bhagavad Gita Chapter 6, verse 5
+SOURCE_URL: https://heritage.iitk.ac.in/SBG/section/208/read
+
+TEACHING SUMMARY:
+Krishna teaches that a person should raise and strengthen oneself rather than allow oneself to decline. The mind can function as a friend when it is trained and directed well, but it can become an obstacle when it is uncontrolled.
+
+PRACTICAL INTERPRETATION:
+Build habits that support clear thinking and responsible action. Do not surrender every decision to an immediate impulse. Small repeated choices can strengthen or weaken self-discipline.
+
+RETRIEVAL KEYWORDS:
+self-control, mind, discipline, habits, responsibility, motivation, inner strength, self-improvement
+
+GROUNDING NOTE:
+This is a paraphrase of Bhagavad Gita 6.5, not a verbatim translation.

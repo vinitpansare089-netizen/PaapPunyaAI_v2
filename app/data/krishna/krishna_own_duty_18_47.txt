@@ -1,0 +1,22 @@
+DOCUMENT_ID: KRISHNA_007
+DEITY: Krishna
+TEXT: Bhagavad Gita
+CHAPTER: 18
+VERSE: 47
+TOPICS: own duty, svadharma, responsibility, vocation, comparison
+CONTENT_TYPE: verse_based_paraphrase
+LANGUAGE: English
+SOURCE: Heritage IIT Kanpur, Bhagavad Gita 18.47
+SOURCE_URL: https://heritage.iitk.ac.in/SBG/18.47
+
+TEACHING SUMMARY:
+Krishna says that performing one's own duty, even imperfectly, is preferable to performing another person's duty very well. The verse connects action with one's own nature and responsibilities.
+
+PRACTICAL INTERPRETATION:
+Avoid blindly copying another person's path just because it appears successful. Understand your abilities, responsibilities and circumstances, then work to fulfil your own role sincerely. This should not be used to justify harmful conduct or to avoid learning and growth.
+
+RETRIEVAL KEYWORDS:
+duty, svadharma, career, responsibility, comparison, purpose, own path, nature
+
+GROUNDING NOTE:
+This is a paraphrase and practical interpretation of Bhagavad Gita 18.47. The application to career choices is interpretive, not a literal statement about modern careers in the verse.
