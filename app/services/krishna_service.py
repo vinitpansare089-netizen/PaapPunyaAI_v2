@@ -92,7 +92,7 @@ if __name__ == "__main__":
     result = get_krishna_response(
         "What does Krishna teach about handling anger?"
     )
-    
+
     print("\nKrishna's Response:\n")
     print(result["answer"])
 
@@ -100,3 +100,4 @@ if __name__ == "__main__":
 
     for source in result["sources"]:
         print("-", source)
+
