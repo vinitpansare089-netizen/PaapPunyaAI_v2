@@ -50,9 +50,14 @@ def retrieve_krishna_knowledge(question: str, k: int = 2):
     )
 
     # Retrieve the most relevant chunks
-    results = vector_store.similarity_search(
-        question,
-        k=k
-    )
+    results = vector_store.similarity_search_with_score(
+    question,
+    k=k
+)
 
-    return results
+    filtered_results = [
+        doc for doc, score in results
+        if score < 1.0
+    ]
+
+    return filtered_results
