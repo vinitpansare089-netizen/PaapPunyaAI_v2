@@ -100,3 +100,4 @@ if __name__ == "__main__":
 
     for source in result["sources"]:
         print("-", source)
+        
