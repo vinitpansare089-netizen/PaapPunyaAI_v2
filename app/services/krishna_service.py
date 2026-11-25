@@ -97,7 +97,7 @@ if __name__ == "__main__":
     print(result["answer"])
 
     print("\nSources:\n")
-    
+
 
     for source in result["sources"]:
         print("-", source)
