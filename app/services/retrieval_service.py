@@ -172,5 +172,5 @@ if __name__ == "__main__":
     for doc in results:
         print("\n--------------------")
         print(doc.page_content)
-        
-        print("Metadata:", doc.metadata)
+
+        print("Metadata:", doc.metadata) 
