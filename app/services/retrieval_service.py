@@ -173,5 +173,4 @@ if __name__ == "__main__":
         print("\n--------------------")
         print(doc.page_content)
         
-
         print("Metadata:", doc.metadata) 
