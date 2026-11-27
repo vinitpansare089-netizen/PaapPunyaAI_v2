@@ -234,6 +234,7 @@ compassionate, practical guidance.
 
 2. A STORY TO REFLECT UPON:
 Select the most relevant retrieved story.
+
 Explain only the events and teaching present
 in the retrieved context.
 Connect its teaching to the user's situation.
