@@ -223,7 +223,6 @@ KNOWLEDGE AND ACCURACY RULES:
 
 11. Never invent or modify Source IDs.
 
-
 12. If you do not use a retrieved story,
     return an empty used_source_ids list.
 
