@@ -227,7 +227,6 @@ KNOWLEDGE AND ACCURACY RULES:
     return an empty used_source_ids list.
 
 RESPONSE STRUCTURE:
-
 1. KRISHNA'S GUIDANCE:
 
 Understand the user's dilemma and provide
