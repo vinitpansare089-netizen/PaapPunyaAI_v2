@@ -145,32 +145,60 @@ def create_krishna_vector_store():
     return vector_store
 
 
-def retrieve_krishna_knowledge(question: str, k: int = 2):
 
-    # Get shared vector store
+
+def retrieve_krishna_knowledge(
+    question: str,
+    k: int = 2,
+    max_distance: float = 1.70
+):
+
     vector_store = get_vector_store()
 
-    # Retrieve relevant documents
     results = vector_store.similarity_search_with_score(
         question,
         k=k
     )
 
-    return [doc for doc, score in results]
+    # Keep only sufficiently relevant documents
+    relevant_documents = []
+
+    for doc, score in results:
+
+        print("\nStory:", doc.metadata.get("title"))
+        print("FAISS distance:", score)
+
+        if score <= max_distance:
+            relevant_documents.append(doc)
+
+    return relevant_documents
+
 
 
 if __name__ == "__main__":
 
+    test_questions = [
+        "I feel jealous because my friends are more successful than me.",
+        "Explain quantum computing and quantum entanglement."
+    ]
+
+    # Build the FAISS index once
     create_krishna_vector_store()
 
-    print("\nTesting retrieval...")
+    # Test retrieval for each dilemma
+    for question in test_questions:
 
-    results = retrieve_krishna_knowledge(
-        "How can I control my anger?"
-    )
+        print("\n" + "=" * 60)
+        print(f"USER DILEMMA: {question}")
+        print("=" * 60)
 
-    for doc in results:
-        print("\n--------------------")
-        print(doc.page_content)
-        
-        print("Metadata:", doc.metadata) 
+        results = retrieve_krishna_knowledge(
+            question,
+            k=2
+        )
+
+        for index, doc in enumerate(results, start=1):
+
+            print(f"\nRetrieved Story {index}:")
+            print("Title:", doc.metadata.get("title"))
+            print("Story:", doc.page_content)
