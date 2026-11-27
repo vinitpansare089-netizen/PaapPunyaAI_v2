@@ -231,6 +231,7 @@ RESPONSE STRUCTURE:
 
 Understand the user's dilemma and provide
 compassionate, practical guidance.
+
 2. A STORY TO REFLECT UPON:
 Select the most relevant retrieved story.
 
