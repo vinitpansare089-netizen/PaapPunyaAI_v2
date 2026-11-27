@@ -246,6 +246,7 @@ Never present it as an authentic scripture quotation.
 
 Keep the response natural, meaningful and concise.
 
+
 RETRIEVED KNOWLEDGE:
 {context}
 """
