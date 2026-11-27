@@ -228,7 +228,6 @@ KNOWLEDGE AND ACCURACY RULES:
 
 RESPONSE STRUCTURE:
 
-
 1. KRISHNA'S GUIDANCE:
 Understand the user's dilemma and provide
 compassionate, practical guidance.
