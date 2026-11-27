@@ -239,7 +239,6 @@ Explain only the events and teaching present
 in the retrieved context.
 Connect its teaching to the user's situation.
 
-
 3. A FINAL REFLECTION:
 Write one short, original reflection inspired
 by the discussion.
