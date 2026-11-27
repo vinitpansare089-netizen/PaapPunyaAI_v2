@@ -242,7 +242,6 @@ Connect its teaching to the user's situation.
 3. A FINAL REFLECTION:
 Write one short, original reflection inspired
 by the discussion.
-
 Never present it as an authentic scripture quotation.
 
 Keep the response natural, meaningful and concise.
